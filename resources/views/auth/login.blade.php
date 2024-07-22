@@ -35,7 +35,7 @@
             </svg> --}}
           </a>
           <h1 class="h5 mb-4">SILAHKAN LOGIN </h1>
-          <h1 class="h5 mb-4">Absensi karyawan Desa Binamang</h1>
+          <h1 class="h5 mb-4">ABSENSI MTSN GANTING DAMAI</h1>
           <div class="form-group">
             <label for="email" class="sr-only">Email address</label>
             <input type="email" id="email" class="form-control form-control-lg" name="email" placeholder="Email address" autofocus="">
