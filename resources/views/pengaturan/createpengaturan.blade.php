@@ -22,7 +22,7 @@
                                     <label for="role">Hari</label>
                                     <select id="role" name="hari" class="form-control">
                                         <option value="">Choose...</option>
-                                        <option >Senen</option>
+                                        <option >Senin</option>
                                         <option>Selasa</option>
                                         <option >Rabu</option>
                                         <option >Kamis</option>
