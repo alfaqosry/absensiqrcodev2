@@ -105,7 +105,7 @@
                         $.ajax({
 
                             url: "{{route('scanabsen')}}",
-                            type: "get",
+                            type: "post",
                             cache: false,
                             data: {
                                 "qr": qr,
