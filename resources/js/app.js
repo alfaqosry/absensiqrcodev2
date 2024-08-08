@@ -30,13 +30,13 @@ Echo.channel('absensi')
             })
 
         } else if(e.status == "reset") {
-            Swal.fire({
-                icon: 'success',
-                title: 'Token di reset',
-                text: 'Token berhasil direset',
-                showConfirmButton: false,
-                timer: 3000
-            })
+            // Swal.fire({
+            //     icon: 'success',
+            //     title: 'Token di reset',
+            //     text: 'Token berhasil direset',
+            //     showConfirmButton: false,
+            //     timer: 3000
+            // })
         }
 
 

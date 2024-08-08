@@ -190,10 +190,25 @@
 
 
     <script src="{{ mix('js/app.js') }}"></script>
+
     <script>
+        // window.setTimeout(function() {
+        //     fetch("{{ route('send-event') }}")
+        //         .then(res => console.log('Success'))
+        //         .catch(err => console.log('Failed'))
+        // }, 3000);
 
+        setInterval(function(){  fetch("{{ route('send-event') }}")
+                .then(res => console.log('Success'))
+                .catch(err => console.log('Failed')) }, 10000)
 
-
+        // setTimeout(function() {
+        //     fetch("{{ route('send-event') }}")
+        //         .then(res => console.log('Success'))
+        //         .catch(err => console.log('Failed'))
+        // }, 5000);
+    </script>
+    <script>
         var daysofweek = ['sun', 'mon', 'tus', 'wed', 'thu', 'fri', 'sat'];
         var month = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
@@ -240,7 +255,7 @@
     </script> --}}
 
 
- 
+
 </body>
 
 
