@@ -104,7 +104,7 @@
                         //ajax
                         $.ajax({
 
-                            url: `/storeabsen`,
+                            url: "{{route('scanabsen')}}",
                             type: "get",
                             cache: false,
                             data: {
