@@ -22,7 +22,7 @@
     <div class="card">
 
         <div class="card-body">
-            <form action="{{ Route('scanabsen') }}" method="POST" id="formabsen">
+            <form action="{{ Route('scanabsen') }}" method="get" id="formabsen">
                 {{ csrf_field() }}
                 <div id="sourceSelectPanel" style="display:none">
                     <label for="sourceSelect">Change video source:</label>
@@ -105,7 +105,7 @@
                         $.ajax({
 
                             url: `/storeabsen`,
-                            type: "POST",
+                            type: "get",
                             cache: false,
                             data: {
                                 "qr": qr,
