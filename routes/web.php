@@ -49,7 +49,7 @@ Route::group(['middleware' => ['auth']], function () {
 
     // qrscan
     Route::get('/scan', [QrscanController::class, 'index'])->name('scan');
-    Route::get('/storeabsen', [QrscanController::class, 'store'])->name('scanabsen');
+    Route::post('/storeabsen', [QrscanController::class, 'store'])->name('scanabsen');
 });
 
  
