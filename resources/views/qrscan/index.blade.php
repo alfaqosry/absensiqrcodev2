@@ -22,7 +22,7 @@
     <div class="card">
 
         <div class="card-body">
-            <form action="{{ Route('scanabsen') }}" method="get" id="formabsen">
+            <form action="{{ Route('scanabsen') }}" method="post" id="formabsen">
                 {{ csrf_field() }}
                 <div id="sourceSelectPanel" style="display:none">
                     <label for="sourceSelect">Change video source:</label>
